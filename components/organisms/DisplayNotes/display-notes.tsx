@@ -5,7 +5,7 @@ type Props = {
   notes: Note[]
 }
 
-const DisplayPosts = ({ notes }: Props) => {
+const DisplayNotes = ({ notes }: Props) => {
   return (
     <section>
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-32 gap-y-20">
@@ -22,4 +22,4 @@ const DisplayPosts = ({ notes }: Props) => {
   )
 }
 
-export default DisplayPosts
+export default DisplayNotes

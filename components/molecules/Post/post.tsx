@@ -3,7 +3,7 @@ import postStyles from './post-styles.module.css'
 
 type Props = {
   title: string
-  coverImage: string
+  coverImage:string
   content: string
 }
 
