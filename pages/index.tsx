@@ -2,16 +2,18 @@ import Container from '../components/atoms/Container/container'
 import DisplayPosts from '../components/organisms/DisplayPosts/display-posts'
 import DisplayNotes from '../components/organisms/DisplayNotes/display-notes'
 import Layout from '../components/templates/layout'
-import { getAllPosts } from '../lib/api'
+import { getAllPosts, getAllNotes } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
+import Note from '../interfaces/note'
 
 type Props = {
   allPosts: Post[]
+  allNotes: Note[]
 }
 
-export default function Index({ allPosts }: Props) {
+export default function Index({ allPosts, allNotes }: Props) {
   return (
     <>
       <Layout>
@@ -36,13 +38,12 @@ export default function Index({ allPosts }: Props) {
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Notes
         </h2>
-        
+        <DisplayNotes notes={allNotes} />
         </Container>
       </Layout>
     </>
   )
 }
-// <DisplayNotes notes={allNotes} />
 
 
 export const getStaticProps = async () => {
@@ -55,7 +56,16 @@ export const getStaticProps = async () => {
     'excerpt',
   ])
 
+  const allNotes = getAllNotes([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt',
+  ])
+
   return {
-    props: { allPosts },
+    props: { allPosts, allNotes },
   }
 }
