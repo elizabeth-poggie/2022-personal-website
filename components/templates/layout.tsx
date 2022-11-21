@@ -1,4 +1,4 @@
-import Footer from '../molecules/footer'
+import Footer from '../molecules/Footer/footer'
 import Meta from '../meta'
 
 type Props = {

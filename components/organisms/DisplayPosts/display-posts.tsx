@@ -1,5 +1,5 @@
-import PostPreview from '../molecules/post-preview'
-import type Post from '../../interfaces/post'
+import PostPreview from '../../molecules/PostPreview/post-preview'
+import type Post from '../../../interfaces/post'
 
 type Props = {
   posts: Post[]
@@ -14,7 +14,6 @@ const DisplayPosts = ({ posts }: Props) => {
             key={post.slug}
             title={post.title}
             coverImage={post.coverImage}
-            author={post.author}
             slug={post.slug}
             excerpt={post.excerpt}
           />

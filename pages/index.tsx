@@ -1,5 +1,6 @@
-import Container from '../components/atoms/container'
-import DisplayPosts from '../components/organisms/display-posts'
+import Container from '../components/atoms/Container/container'
+import DisplayPosts from '../components/organisms/DisplayPosts/display-posts'
+import DisplayNotes from '../components/organisms/DisplayNotes/display-notes'
 import Layout from '../components/templates/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
@@ -35,11 +36,14 @@ export default function Index({ allPosts }: Props) {
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Notes
         </h2>
+        
         </Container>
       </Layout>
     </>
   )
 }
+// <DisplayNotes notes={allNotes} />
+
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts([

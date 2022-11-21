@@ -1,11 +1,10 @@
-import type Author from './author'
+import { StringMappingType } from "typescript"
 
 type PostType = {
   slug: string
   title: string
   date: string
-  coverImage: string
-  author: Author
+  coverImage: StringMappingType
   excerpt: string
   ogImage: {
     url: string

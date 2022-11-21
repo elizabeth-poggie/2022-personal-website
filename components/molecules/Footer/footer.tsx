@@ -1,4 +1,4 @@
-import Container from '../atoms/container'
+import Container from '../../atoms/Container/container'
 
 const Footer = () => {
   return (

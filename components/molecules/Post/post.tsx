@@ -1,9 +1,10 @@
-import CoverImage from '../atoms/cover-image'
-import markdownStyles from '../../styles/markdown-styles.module.css'
+import CoverImage from '../../atoms/cover-image'
+import postStyles from './post-styles.module.css'
+import { StringMappingType } from "typescript"
 
 type Props = {
   title: string
-  coverImage: string
+  coverImage: StringMappingType
   content: string
 }
 
@@ -18,7 +19,7 @@ const PostHeader = ({ title, coverImage, content }: Props) => {
       </div>
       <div className="max-w-2xl mx-auto">
         <div
-          className={markdownStyles['markdown']}
+          className={postStyles['markdown']}
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>
