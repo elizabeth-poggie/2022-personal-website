@@ -3,7 +3,6 @@ title: 'Panic Mitigation Application'
 excerpt: 'a UI/UX research project for panic'
 coverImage: /assets/projects/panic/cover2.png
 date: '2020-03-16T05:35:07.322Z'
-category: UI/UX
 ogImage:
   url: /assets/projects/panic/cover2.png
 ---
