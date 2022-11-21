@@ -1,10 +1,9 @@
 import CoverImage from '../../atoms/cover-image'
 import postStyles from './post-styles.module.css'
-import { StringMappingType } from "typescript"
 
 type Props = {
   title: string
-  coverImage: StringMappingType
+  coverImage: string
   content: string
 }
 

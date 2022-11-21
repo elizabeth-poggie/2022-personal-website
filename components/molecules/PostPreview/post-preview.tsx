@@ -1,10 +1,9 @@
 import CoverImage from '../../atoms/cover-image'
 import Link from 'next/link'
-import { StringMappingType } from "typescript"
 
 type Props = {
   title: string
-  coverImage: StringMappingType
+  coverImage: string
   excerpt: string
   slug: string
 }

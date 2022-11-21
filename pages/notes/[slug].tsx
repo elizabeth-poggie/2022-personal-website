@@ -2,22 +2,21 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import Container from '../../components/atoms/Container/container'
 import Header from '../../components/atoms/header'
-import PostHeader from '../../components/molecules/Post/post'
+import Note from '../../components/molecules/Note/note'
 import Layout from '../../components/templates/layout'
-import { getPostBySlug, getAllPosts } from '../../lib/api'
+import { getNotesBySlugs, getAllNotes } from '../../lib/api'
 import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
-import type PostType from '../../interfaces/post'
+import NoteType from '../../interfaces/note'
 
 type Props = {
-  post: PostType
-  morePosts: PostType[]
+  note: NoteType
   preview?: boolean
 }
 
-export default function Post({ post, morePosts, preview }: Props) {
+export default function NotePage({ note, preview }: Props) {
   const router = useRouter()
-  if (!router.isFallback && !post?.slug) {
+  if (!router.isFallback && !note?.slug) {
     return <ErrorPage statusCode={404} />
   }
   return (
@@ -27,14 +26,12 @@ export default function Post({ post, morePosts, preview }: Props) {
           <article className="mb-32">
             <Head>
               <title>
-                {post.title}
+                {note.title}
               </title>
-              <meta property="og:image" content={post.ogImage.url} />
             </Head>
-            <PostHeader
-              title={post.title}
-              coverImage={post.coverImage}
-              content={post.content} 
+            <Note
+              title={note.title}
+              content={note.content} 
             />
           </article>
       </Container>
@@ -49,20 +46,17 @@ type Params = {
 }
 
 export async function getStaticProps({ params }: Params) {
-  const post = getPostBySlug(params.slug, [
+  const note = getNotesBySlugs(params.slug, [
     'title',
-    'date',
     'slug',
     'content',
-    'ogImage',
-    'coverImage',
   ])
-  const content = await markdownToHtml(post.content || '')
+  const content = await markdownToHtml(note.content || '')
 
   return {
     props: {
-      post: {
-        ...post,
+      note: {
+        ...note,
         content,
       },
     },
@@ -70,10 +64,10 @@ export async function getStaticProps({ params }: Params) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(['slug'])
+  const notes = getAllNotes(['slug'])
 
   return {
-    paths: posts.map((post) => {
+    paths: notes.map((post) => {
       return {
         params: {
           slug: post.slug,

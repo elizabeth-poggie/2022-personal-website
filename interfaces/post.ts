@@ -1,10 +1,8 @@
-import { StringMappingType } from "typescript"
-
 type PostType = {
   slug: string
   title: string
   date: string
-  coverImage: StringMappingType
+  coverImage: string
   excerpt: string
   ogImage: {
     url: string
