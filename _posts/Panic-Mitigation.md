@@ -1,10 +1,10 @@
 ---
 title: 'Panic Mitigation Application'
 excerpt: 'a UI/UX research project for panic'
-coverImage: /assets/projects/panic/cover2.png
+coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 ogImage:
-  url: /assets/projects/panic/cover2.png
+  url: '/assets/blog/preview/cover.jpg'
 ---
 
 ### Panic Mitigation

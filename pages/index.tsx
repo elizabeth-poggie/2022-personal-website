@@ -1,6 +1,6 @@
-import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import Layout from '../components/layout'
+import Container from '../components/atoms/container'
+import DisplayPosts from '../components/organisms/display-posts'
+import Layout from '../components/templates/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
@@ -28,7 +28,7 @@ export default function Index({ allPosts }: Props) {
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Personal Projects
         </h2>
-        <MoreStories posts={allPosts} />
+        <DisplayPosts posts={allPosts} />
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Presentations
         </h2>

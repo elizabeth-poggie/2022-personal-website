@@ -6,9 +6,11 @@ type Props = {
   title: string
   src: string
   slug?: string
+  width: number
+  height: number
 }
 
-const CoverImage = ({ title, src, slug }: Props) => {
+const CoverImage = ({ title, src, slug, width, height }: Props) => {
   const image = (
     <Image
       src={src}
@@ -16,8 +18,8 @@ const CoverImage = ({ title, src, slug }: Props) => {
       className={cn('w-full', {
         'hover:shadow-lg transition-shadow duration-200': slug,
       })}
-      width={1300}
-      height={630}
+      width={width}
+      height={height}
     />
   )
   return (

@@ -1,10 +1,9 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
-import Container from '../../components/container'
-import PostBody from '../../components/post-body'
-import Header from '../../components/header'
-import PostHeader from '../../components/post-header'
-import Layout from '../../components/layout'
+import Container from '../../components/atoms/container'
+import Header from '../../components/atoms/header'
+import PostHeader from '../../components/molecules/post'
+import Layout from '../../components/templates/layout'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
@@ -35,10 +34,8 @@ export default function Post({ post, morePosts, preview }: Props) {
             <PostHeader
               title={post.title}
               coverImage={post.coverImage}
-              date={post.date}
-              author={post.author}
+              content={post.content} 
             />
-            <PostBody content={post.content} />
           </article>
       </Container>
     </Layout>
