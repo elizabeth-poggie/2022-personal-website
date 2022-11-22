@@ -1,6 +1,6 @@
 ---
 title: 'Coordination'
-excerpt: 'Common ground and coordination in joint activity'
+excerpt: '5 tips for getting to common ground and coordination in joint activity'
 source: John Allspaw
 link: 'https://speakerdeck.com/paperswelove/john-allspaw-on-common-ground-and-coordination-in-joint-activity?slide=139'
 ---

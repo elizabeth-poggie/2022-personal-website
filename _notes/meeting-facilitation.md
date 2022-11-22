@@ -1,6 +1,6 @@
 ---
 title: 'Meeting Faciliation'
-excerpt: ' a Case Study of Person X & Person Y'
+excerpt: 'Driving to a solution, grounding, and why this matters'
 source: 'Pierre, Stan, Jack'
 link: 'https://www.liberatingstructures.com/24-what-i-need-from-you-winfy/'
 ---
