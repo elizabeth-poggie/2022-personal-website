@@ -1,5 +1,6 @@
 import CoverImage from '../../atoms/cover-image'
 import postStyles from './post-styles.module.css'
+import markdownStyles from '../../../styles/markdown-styles.module.css'
 
 type Props = {
   title: string
@@ -10,7 +11,7 @@ type Props = {
 const PostHeader = ({ title, coverImage, content }: Props) => {
   return (
     <>
-      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-center md:text-left">
+      <h1 className={postStyles.h1}>
         {title}
       </h1>
       <div className="mb-8 md:mb-16 sm:mx-0">
@@ -18,7 +19,7 @@ const PostHeader = ({ title, coverImage, content }: Props) => {
       </div>
       <div className="max-w-2xl mx-auto">
         <div
-          className={postStyles['markdown']}
+          className={markdownStyles['markdown']}
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>

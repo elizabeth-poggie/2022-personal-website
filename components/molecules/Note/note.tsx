@@ -1,4 +1,4 @@
-import noteStyles from './note-styles.module.css'
+import markdownStyles from '../../../styles/markdown-styles.module.css'
 
 type Props = {
   title: string
@@ -11,9 +11,9 @@ const Note = ({ title, content }: Props) => {
       <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-center md:text-left">
         {title}
       </h1>
-      <div className="max-w-2xl mx-auto">
+      <div className="mx-auto">
         <div
-          className={noteStyles['markdown']}
+          className={markdownStyles['markdown']}
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>

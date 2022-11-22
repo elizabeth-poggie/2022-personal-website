@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sidebar {
+    display: flex;
+    align-items: flex-end;
+}
+  
+.underline:hover  {
+    box-shadow: inset 0 -3px;
+}
+
+.source { 
+    font-size: 0.875rem;
+    line-height: 1.625;
+    font-style: italic; 
+    color: grey;
+}

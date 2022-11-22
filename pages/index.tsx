@@ -39,6 +39,9 @@ export default function Index({ allPosts, allNotes }: Props) {
           Notes
         </h2>
         <DisplayNotes notes={allNotes} />
+        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
+          Comics
+        </h2>
         </Container>
       </Layout>
     </>
@@ -57,10 +60,9 @@ export const getStaticProps = async () => {
 
   const allNotes = getAllNotes([
     'title',
-    'date',
     'slug',
-    'coverImage',
     'excerpt',
+    'source',
   ])
 
   return {

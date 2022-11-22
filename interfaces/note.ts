@@ -4,6 +4,7 @@ type NoteType = {
   title: string
   excerpt: string
   content: string
+  source: string
 }
 
 export default NoteType

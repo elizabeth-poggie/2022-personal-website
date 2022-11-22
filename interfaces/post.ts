@@ -11,3 +11,4 @@ type PostType = {
 }
 
 export default PostType
+ 
