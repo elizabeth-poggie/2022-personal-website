@@ -1,7 +1,7 @@
 ---
 title: 'Protecting Yourself in Coorporate'
 excerpt: "Poggie learnt a lot of hard lessons"
-source: 'James, Jack, Pierre, Alexa, Laurie, Nathalie Baïda, my opthamologist'
+source: 'James, Jack, Pierre, Alexa, Laurie, Nathalie Baïda'
 ---
 
 ## Business Focused Approach
