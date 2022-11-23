@@ -4,8 +4,9 @@ excerpt: 'a Case Study of Person X & Person Y'
 source: 'Me'
 ---
 
-## If person X needs 2 vent about person Y
-
+## If there is tension between X & Y
+- Person X must take reasonable steps to improve the situation. Demonstrate person X can be professional & keep emotions out. Taking a pragmatic approach to find solutions. 
+## If person X needs to vent about person Y
 - Active Listen
 - If in active listen reveal red flag of person X =>
     - Low priority: Poggie give personal perspective

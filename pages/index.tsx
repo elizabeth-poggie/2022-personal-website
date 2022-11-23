@@ -28,7 +28,7 @@ export default function Index({ allPosts, allNotes }: Props) {
         <p className="text-lg leading-relaxed mb-4">I do art and code.</p>
         <br></br>
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Personal Projects
+          Projects
         </h2>
         <DisplayPosts posts={allPosts} />
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
