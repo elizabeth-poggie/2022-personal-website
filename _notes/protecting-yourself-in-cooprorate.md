@@ -28,6 +28,9 @@ Think about where your energy is going, is this energy going towards self preser
 ## Paper Trails
 Write everything down. Do not let anyone rewrite history on you.
 
+## Taking it Personally
+When someone is stinky, let them be. It's a reflection on them not on you.
+
 ## Coping
 Whatever works best for you lol, ur gonna need it lmao.
 

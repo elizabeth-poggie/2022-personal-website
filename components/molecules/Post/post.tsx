@@ -17,7 +17,7 @@ const PostHeader = ({ title, coverImage, content }: Props) => {
       <div className="mb-8 md:mb-16 sm:mx-0">
         <CoverImage title={title} src={coverImage} width={1300} height={630}/>
       </div>
-      <div className="max-w-2xl mx-auto">
+      <div className={postStyles.post_container}>
         <div
           className={markdownStyles['markdown']}
           dangerouslySetInnerHTML={{ __html: content }}
