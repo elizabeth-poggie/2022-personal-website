@@ -1,10 +1,10 @@
 ---
 title: 'Panic Mitigation Application'
 excerpt: 'a UI/UX research project for panic'
-coverImage: '/assets/blog/preview/cover.jpg'
+coverImage: '/assets/posts/panic/application-structure.png'
 source: 'https://github.com/elizabeth-poggie/panic-app'
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: '/assets/posts/panic/application-structure.png'
 ---
 
 # Abstract 
@@ -70,8 +70,7 @@ The main feature of Daylio is a journaling app to track everything from exercise
 
 By taking information gathered through market research and background information, a target audience for the product can be defined. This audience is represented by a user profile which reflects similar characteristics and goals of the audience and forms the benchmark for creating an optimal user experience (Rocket55, 2020). This way, instead of trying to design an application that tailors itself to every user, we find the users that will want to use our application and tailor it accordingly (JustInMind, 2020). For the purposes of this paper, we will examine Jessy Williams as a representative of the application’s target market.
 
-<img src="../../assets/projects/panic/jessy.png"/>
-
+![Image](/assets/posts/panic/jessy.png)
 ### Demographics
 
 Age: 19
@@ -119,7 +118,8 @@ Goal: Completing a CBT activity
 
 Subject: Jessy 
 
-<img src="../../assets/projects/panic/1.png"/>
+![Image](/assets/posts/panic/1.png)
+
 
 Final Note: This section should have activities divided into the 5 basic categories of a successful iCBT program. These include relaxation, cognitive restructuring, mindfulness and systematic exposure activities. Depending on the type of activity, they will be integrated in other parts of the applications. 
 
@@ -129,7 +129,7 @@ Goal: Mitigate the onset of a panic attack
 
 Subject: Jessy 
 
-<img src="../../assets/projects/panic/2.png"/>
+![Image](/assets/posts/panic/2.png)
 
 ### Scenario 2
 
@@ -137,7 +137,7 @@ Goal: Add a journal Entry
 
 Subject: Jessy 
 
-<img src="../../assets/projects/panic/3.png"/>
+![Image](/assets/posts/panic/3.png)
 
 Final Note: This will allow the user to track anything they have completed from their iCBT workbook that requires persistent attention. These are classified as “habit forming” activities. This could be mindfulness goals or tracking different symptoms. As well, users complete iCBT homework that is most helpful to them and so each journal entry will be different depending on the user. For example, some users want to track comorbidity while other are only dealing with panic. 
 
@@ -147,7 +147,7 @@ Goal: Tracking a goal.
 
 Subject: Jessy 
 
-<img src="../../assets/projects/panic/4.png"/>
+![Image](/assets/posts/panic/4.png)
 
 Final Note: Different users have different long-term goals they are trying to achieve with their panic. For example, is the user pursuing a systematic exposure activity or a cognitive restructuring activity? These are long term goals that do not have progress being made on the daily but should always be visible to them to serve as a remainder of what they are working towards. 
 
@@ -159,13 +159,13 @@ Goal: Reviewing their journal.
 
 Subject: Jessy 
 
-<img src="../../assets/projects/panic/5.png"/>
+![Image](/assets/posts/panic/5.png)
 
 # User Flow
 
 Now that we have a base knowledge on the scenario maps and user persona, we can construct the way in which we expect the user to move through the application. 
 
-<img src="../../assets/projects/panic/flow.png"/>
+![Image](/assets/posts/panic/flow.png)
 
 # Wire Frames 
 
@@ -173,32 +173,32 @@ Now that the screen requirements have been properly scoped, they can be designed
 
 ### Home Screen 
 
-<img src="../../assets/projects/panic/01.png"/>
+![Image](/assets/posts/panic/01.png)
 
 The time it takes the user to click the “Panic” button during an attack will be minimized due to its size (Fitt’s Law, Doherty Threshold). Because the panic button dominates the home screen view, there are less items that the user needs to think about clicking on when undergoing an attack (Hick’s Law). Additionally, the progress of long-term goals is shown on the home screen to serve as a reminder of what the user is striving towards (Zeigarnik Effect). Finally, the user can add journal entries by selecting “+” in a similar way you can add items in almost all of Google’s applications (Jakob’s law). 
 
 
 ### CBT Screen
 
-<img src="../../assets/projects/panic/02.png"/>
+![Image](/assets/posts/panic/02.png)
 
 Exercises are organized according to CBT category membership (Law of Proximity) and each category has an artistic style associated with it (Law of Similarity). Consequently, we do not need to define borders to signify a category which will make the design feel cleaner. As well, an exercise within a CBT category that is most effective will always appear at the beginning of the sequence (Von Restorff Effect). Finally, to hint to the user that they need to horizontally scroll to discover more exercises, we should partially show half an exercise if the list requires. 
 
 ### Journal Screen 
 
-<img src="../../assets/projects/panic/03.png"/>
+![Image](/assets/posts/panic/03.png)
 
 Users can manipulate the bar up and down to reveal the calendar or entry view. This is important as the entries and the calendar are intricately linked together and also minimizes the number of clicks for navigation (Law of Proximity). Entries are distinct and surrounded by boarders (Law of Common Region). 
 
 ### Entry Screen
 
-<img src="../../assets/projects/panic/04.png"/>
+![Image](/assets/posts/panic/04.png)
 
 This is designed to match the user’s scanning pattern with the most important components at the start of the sequence (Serial Position effect). Users can submit an entry if and only if a mood is selected as this will allow us to make associations with the users mood and habits at a later point. 
 
 ### “Before you begin” activity Screen 
 
-<img src="../../assets/projects/panic/05.png"/>
+![Image](/assets/posts/panic/05.png)
 
 Whereas the “Begin” button is the primary choice, the “Always Skip” is secondary and requires a different styling. Having a button visual hierarchy is an important factor when decreasing user’s decision time (Doherty Threshold). As well, “Always Skip” is placed before the “Begin” button as this will match the user’s scanning pattern (Caglar, 2020). A common mistake of many designers is to place the primary button before other options because they want the user to notice the primary selection first, but this is unnecessary as the primary button is already styled to be the most noticeable. As well, the “Always Skip” is left empty as pre-filling does not respect the user. Finally, there is a bar that the users can optionally use to bring up the instructions again at any point during the exercise. 
 
@@ -206,7 +206,7 @@ Whereas the “Begin” button is the primary choice, the “Always Skip” is s
 
 Relaxation therapy category - Box Breathing
 
-<img src="../../assets/projects/panic/06.png"/>
+![Image](/assets/posts/panic/06.png)
 
 This exercise will be a simple animation of the breathing exercise for the user. This exercise is a feature of almost every iCBT workbook because it is a first line treatment when dealing with an attack. Consequently, the design is minimal to allow the user to focus on one thing only: breathing (Law of Pragnanz). 
 
@@ -214,7 +214,7 @@ This exercise will be a simple animation of the breathing exercise for the user.
 
 Mindfulness category - Self Care Buckets
 
-<img src="../../assets/projects/panic/07.png"/>
+![Image](/assets/posts/panic/07.png)
 
 There are five different domains of self care that that form the basis of anxiety management: social, physical, emotional, mental, and spiritual (Queens University Health, Counselling and Disability Services, 2014). The user should be able to add as many inputs as they like to any of the five domains since each domain is unique to the user (Postel’s Law). Additionally, these domains will be separated by clearly defined boundaries (Law of Common Region), but there will be no boundaries within a domain to prevent a cluttered design.
 
@@ -222,7 +222,7 @@ There are five different domains of self care that that form the basis of anxiet
 
 Systematic Exposure - Fear Ladder
 
-<img src="../../assets/projects/panic/08.png"/>
+![Image](/assets/posts/panic/08.png)
 
 This activity was highlighted in part 2 section 2. The fear ladder for the individual is unique in the number of steps they must go through to reach their goal so the ladder must be customizable (Postel’s Law).  
 
