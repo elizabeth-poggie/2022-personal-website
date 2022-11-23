@@ -4,7 +4,6 @@ import DisplayNotes from '../components/organisms/DisplayNotes/display-notes'
 import Layout from '../components/templates/layout'
 import { getAllPosts, getAllNotes } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Note from '../interfaces/note'
 
@@ -18,7 +17,7 @@ export default function Index({ allPosts, allNotes }: Props) {
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>I am Poggie.</title>
         </Head>
         <Container>
         <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
