@@ -3,6 +3,11 @@
   }
   
 .markdown p,
+.markdown img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px 0 5px 0;
+}
 .markdown ul {
   list-stylse: auto;
   margin: auto;

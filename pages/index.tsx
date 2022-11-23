@@ -25,10 +25,12 @@ export default function Index({ allPosts, allNotes }: Props) {
             I am Poggie.
           </h1>
         </section>
-        <p className="text-lg leading-relaxed mb-4">I do art and code.</p>
+        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
+          Resume
+        </h2>
         <br></br>
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Projects
+          Portfolio
         </h2>
         <DisplayPosts posts={allPosts} />
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
@@ -38,9 +40,6 @@ export default function Index({ allPosts, allNotes }: Props) {
           Notes
         </h2>
         <DisplayNotes notes={allNotes} />
-        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Comics
-        </h2>
         </Container>
       </Layout>
     </>

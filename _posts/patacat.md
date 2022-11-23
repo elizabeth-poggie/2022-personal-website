@@ -18,6 +18,8 @@ It does exactly what you think it does. You pat cats. In this game you can compe
 
 ## The Game
 
+![Image](/assets/posts/patacat/1.png)
+
 [Play it here :^)](https://patacat.github.io/)
 
 ## Playing the Game
