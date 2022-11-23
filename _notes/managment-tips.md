@@ -4,8 +4,6 @@ excerpt: 'Delivering an aligned Result & Enabling the success of team members'
 source: 'First Round Review'
 link: 'https://review.firstround.com/stop-overcomplicating-it-the-simple-guidebook-to-upping-your-management-game'
 ---
-
-
 ## A Managers Job
 1. Deliver aligned result
 2. Enable success of the people on your teams
