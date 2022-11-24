@@ -1,4 +1,4 @@
-type NoteType = {
+type PresentationType = {
     slug: string
     title: string
     date: string
@@ -10,5 +10,5 @@ type NoteType = {
     content: string
   }
   
-  export default NoteType
+  export default PresentationType
    

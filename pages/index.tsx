@@ -1,6 +1,7 @@
 import Container from '../components/atoms/Container/container'
 import DisplayPosts from '../components/organisms/DisplayPosts/display-posts'
 import DisplayNotes from '../components/organisms/DisplayNotes/display-notes'
+import DisplayPresentation from '../components/organisms/DisplayPresenations/display-presentations'
 import Layout from '../components/templates/layout'
 import { getAllPosts, getAllNotes, getAllPresentations } from '../lib/api'
 import Head from 'next/head'
@@ -38,7 +39,7 @@ export default function Index({ allPosts, allNotes, allPresentations }: Props) {
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Presentations
         </h2>
-        <DisplayPosts posts={allPresentations} />
+        <DisplayPresentation presentations={allPresentations} />
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Notes
         </h2>

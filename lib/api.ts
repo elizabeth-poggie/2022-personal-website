@@ -128,7 +128,7 @@ export function getAllNotes(fields: string[] = []) {
 
 export function getAllPresentations(fields: string[] = []) {
   const slugs = getPresentationSlugs()
-  const notes = slugs
+  const presentations = slugs
     .map((slug) => getPresentationBySlugs(slug, fields))
-  return notes
+  return presentations
 }

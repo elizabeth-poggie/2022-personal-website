@@ -17,8 +17,11 @@ September 7th, 2022
 
 ## Resources
 https://www.remove.bg/upload
-https://ezgif.com/help/adding-background-to-transparent-gif
-https://www.remove.bg/upload
-https://ezgif.com/maker
-https://makeemoji.com/
 
+https://ezgif.com/help/adding-background-to-transparent-gif
+
+https://www.remove.bg/upload
+
+https://ezgif.com/maker
+
+https://makeemoji.com/
