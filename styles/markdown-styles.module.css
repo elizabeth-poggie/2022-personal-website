@@ -1,6 +1,10 @@
 .markdown {
     @apply text-lg leading-relaxed;
   }
+
+.markdown a {
+  color: grey;
+}
   
 .markdown p,
 .markdown img {

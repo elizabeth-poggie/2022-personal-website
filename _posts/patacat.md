@@ -18,8 +18,6 @@ It does exactly what you think it does. You pat cats. In this game you can compe
 
 ## The Game
 
-![Image](/assets/posts/patacat/1.png)
-
 [Play it here :^)](https://patacat.github.io/)
 
 ## Playing the Game
@@ -42,5 +40,7 @@ We are proud of CTF (McGill Computer Taskforce) united together as one to create
 
 ## Dev Post
 
-[See our devpost here](https://devpost.com/software/pat-a-cat-mqs6iy)
+[See our Devpost here](https://devpost.com/software/pat-a-cat-mqs6iy)
 
+
+![Image](/assets/posts/patacat/1.png)
