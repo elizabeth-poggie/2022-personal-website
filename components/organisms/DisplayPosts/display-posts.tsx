@@ -14,7 +14,7 @@ const DisplayPosts = ({ posts }: Props) => {
             key={post.slug}
             title={post.title}
             coverImage={post.coverImage}
-            slug={post.slug}
+            slug={`/posts/${post.slug}`}
             excerpt={post.excerpt}
           />
         ))}
