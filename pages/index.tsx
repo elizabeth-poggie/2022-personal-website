@@ -29,10 +29,6 @@ export default function Index({ allPosts, allNotes, allPresentations }: Props) {
           </h1>
         </section>
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Resume
-        </h2>
-        <br></br>
-        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Portfolio
         </h2>
         <DisplayPosts posts={allPosts} />
