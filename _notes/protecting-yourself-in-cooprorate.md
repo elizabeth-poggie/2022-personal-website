@@ -33,6 +33,3 @@ When someone is stinky, let them be. It's a reflection on them not on you.
 
 ## Coping
 Whatever works best for you lol, ur gonna need it lmao.
-
-## Avoiding Buses
-Imagine all of the buses in the world operating 24/7. Instead of standing on the highway, get off the highway & cope.
