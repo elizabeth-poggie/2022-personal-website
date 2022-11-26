@@ -1,6 +1,6 @@
 ---
 title: 'Management Tips'
-excerpt: 'Delivering an aligned Result & Enabling the success of team members'
+excerpt: 'Delivering an aligned result & enabling the success of team members'
 source: 'First Round Review'
 link: 'https://review.firstround.com/stop-overcomplicating-it-the-simple-guidebook-to-upping-your-management-game'
 ---
