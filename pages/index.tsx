@@ -31,15 +31,21 @@ export default function Index({ allPosts, allNotes, allPresentations }: Props) {
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Portfolio
         </h2>
-        <DisplayPosts posts={allPosts} />
+        <section className="mb-8">
+          <DisplayPosts posts={allPosts} />
+        </section>
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Presentations
         </h2>
-        <DisplayPresentation presentations={allPresentations} />
+        <section className="mb-8">
+          <DisplayPresentation presentations={allPresentations} />
+        </section>
         <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
           Notes
         </h2>
-        <DisplayNotes notes={allNotes} />
+        <section className="mb-8">
+          <DisplayNotes notes={allNotes} />
+        </section>
         </Container>
       </Layout>
     </>

@@ -8,7 +8,7 @@ type Props = {
 const DisplayNotes = ({ notes }: Props) => {
   return (
     <section>
-      <div className="grid mb-8">
+      <div className="grid">
         {notes.map((note) => (
           <NotePreview
             key={note.slug}

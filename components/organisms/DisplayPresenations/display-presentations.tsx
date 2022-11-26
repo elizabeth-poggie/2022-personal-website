@@ -8,7 +8,7 @@ type Props = {
 const DisplayPresentation = ({ presentations }: Props) => {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-32 gap-y-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-32">
         {presentations.map((presentation) => (
           <PostPreview
             key={presentation.slug}
