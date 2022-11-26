@@ -20,15 +20,27 @@
     color: grey;
 }
 
+.underlineMobile {
+    @apply text-3xl leading-snug
+}
+
 @media screen and (max-width: 1024px) {
     .container {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
     }
-    
+
     .sidebar {
         display: block;
+    }
+
+    .underline:hover {
+        box-shadow: none
+    }
+
+    .underlineMobile:hover {
+        text-decoration-line: underline;
     }
 }
 

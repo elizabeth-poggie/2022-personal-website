@@ -16,7 +16,7 @@ The leader takes the fall, so how can you turn everything into a collective disc
 ## Setting Boundaries
 Take a step back. A reaction is NOT a response. Create a wall so they can't get in.
 
-## Hills to Die on
+## Hills to Die On
 Figure out what motivates you, this will help you will determine which hills are worth dying on vs not.
 
 ## Politics

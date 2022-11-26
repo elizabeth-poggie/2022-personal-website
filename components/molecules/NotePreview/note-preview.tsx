@@ -22,8 +22,8 @@ const NotePreview = ({
     >
         <div className={notePreviewStyles.container}>
             <div className={notePreviewStyles.sidebar}>
-            <h3 className="text-3xl leading-snug">{title}:</h3>
-            <p className="text-lg leading-relaxed">	&nbsp;{excerpt}</p>
+            <h3 className={notePreviewStyles.underlineMobile}>{title}:&nbsp;</h3>
+            <p className="text-lg leading-relaxed">{excerpt}</p>
             </div>
             <p className={notePreviewStyles.source}>{source}</p>
         </div>
