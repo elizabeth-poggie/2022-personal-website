@@ -1,6 +1,6 @@
 ---
 title: 'Overcoming Imposter Syndrome'
-excerpt: 'an interactive workshop @ SSENSE'
+excerpt: 'An interactive workshop @ SSENSE'
 coverImage: '/assets/presentations/ImposterSyndrome/cover.png'
 date: '2020-03-16T05:35:07.322Z'
 ogImage:

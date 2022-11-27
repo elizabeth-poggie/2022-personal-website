@@ -1,6 +1,6 @@
 ---
 title: 'Pat-a-Cat'
-excerpt: 'a simple keyboard game :)'
+excerpt: 'A simple keyboard game :)'
 coverImage: '/assets/posts/patacat/cat.png'
 date: '2020-03-16T05:35:07.322Z'
 ogImage:

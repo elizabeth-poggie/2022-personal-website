@@ -1,6 +1,6 @@
 ---
 title: 'Product Management'
-excerpt: "backlog, time boxing, guidance questions & creating trust"
+excerpt: "Backlog, time boxing, guidance questions & creating trust"
 source: 'Ben, Jess, Jack'
 ---
 

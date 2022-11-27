@@ -1,6 +1,6 @@
 ---
 title: 'McGill Computer Taskforce'
-excerpt: 'branding & web development'
+excerpt: 'Branding & web development'
 coverImage: '/assets/posts/ctf-branding/4.png'
 date: '2020-03-16T05:35:07.322Z'
 ogImage:

@@ -1,6 +1,6 @@
 ---
 title: 'Interpersonal Conflict Resolution Corner'
-excerpt: 'a Case Study of Person X & Person Y'
+excerpt: 'A Case Study of Person X & Person Y'
 source: 'Me'
 ---
 

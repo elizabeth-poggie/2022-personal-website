@@ -1,10 +1,10 @@
 ---
 title: 'Custom Slack Emojis: Best Practices'
-excerpt: 'a community building workshop @ SSENSE'
-coverImage: '/assets/presentations/CustomSlackEmojis/ssense-innovation-day-2022-604.jpg'
+excerpt: 'A community building workshop @ SSENSE'
+coverImage: '/assets/presentations/CustomSlackEmojis/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 ogImage:
-  url: '/assets/presentations/CustomSlackEmojis/ssense-innovation-day-2022-604.jpg'
+  url: '/assets/presentations/CustomSlackEmojis/cover.jpg'
 ---
 
 # Event Details

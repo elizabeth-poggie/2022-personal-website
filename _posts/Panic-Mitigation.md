@@ -1,6 +1,6 @@
 ---
 title: 'Panic Mitigation Application'
-excerpt: 'a UI/UX research project for panic'
+excerpt: 'A UI/UX research project for panic'
 coverImage: '/assets/posts/panic/application-structure.png'
 source: 'https://github.com/elizabeth-poggie/panic-app'
 ogImage:
