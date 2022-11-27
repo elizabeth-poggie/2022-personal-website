@@ -1,6 +1,6 @@
 ---
 title: 'Leadership'
-excerpt: 'Principals'
+excerpt: 'Amazon Principals'
 source: 'Amazon Principals'
 link: 'https://review.firstround.com/stop-overcomplicating-it-the-simple-guidebook-to-upping-your-management-game'
 ---
