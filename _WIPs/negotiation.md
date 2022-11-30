@@ -19,7 +19,7 @@ Used only for hills to die on, otherwise disagree & commit. You cannot win every
 ## Labeling
 
 ## Tone
-- Use your own name to make yourself a real person. Humor and humanity are the best ways to break the ice and remove roadblocks.
+Use your own name to make yourself a real person. Humor and humanity are the best ways to break the ice and remove roadblocks.
 
 ## Building Rapport
 We fear what's different & that we do not understand and are drawn to what's similar. Mirroring is the art of insinuating similarity & faciliate bonding.
@@ -57,7 +57,7 @@ Using "How" questions is a gentler version of "No"
 ## Leverage
 - **Positive:** The ability to give someone what they want. When someone responds with "I want..." you have positive leverage
 - **Negative:** The ability to hurt someone.  Direct threats shut down the negotiation and even subtle ones are risky. If you need to use this form of leverage then hit them with: "It seems like you do not care what position you are leaving me in." as a subtle tactic.
-- **Normative:** Using your counterparts norms to bring them around. If you can show inconsitencies between their beliefs and actions, you have normative leverage. No one wants to be seen as a Hypocrite.
+- **Normative:** If you can show inconsitencies between their beliefs and actions, you have normative leverage. No one wants to be seen as a Hypocrite.
 
 
 
