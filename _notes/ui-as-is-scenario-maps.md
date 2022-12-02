@@ -1,6 +1,6 @@
 ---
-title: 'Staying Aligned with Authority'
-excerpt: 'Leadership is bidirectional'
+title: 'As is Scenario Maps'
+excerpt: 'UI / UX'
 source: 'Vivian, IBM'
 ---
 
