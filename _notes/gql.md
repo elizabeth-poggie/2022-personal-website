@@ -169,36 +169,3 @@ Resolving the N+1 problem associated with GraphQL
 
 
 
-
-
-
-
-
-# Questions
-## Learnings ?
-
-## Risks ?
-
-## Concerns ?
-1. What do you mean that codegen creates dependency on the schema?
-
-## Problems ?
-Codegen does not play nice with query aliases. This has proven problematic to retrofit the GQL response to the existing client contract
-1. What do you mean by play nice?
-2. What do you mean retrofit the response?
-3. What were you trying to achieve when you encountered this problem?
-
-## Successes ?
-
-## Approach ?
-1. How are the tickets split up?
-2. When you go to start a task how do u approach it? 
-3. What is the flow? 
-4. How is testing done?
-5. What is your role, how does this role differ from Jude's role?
-6. What do you expect from Jude?
-7. How do you communicate to Jude when you need something?
-8. How is the cooridnation between ur team and Jude's team?
-
-
-
