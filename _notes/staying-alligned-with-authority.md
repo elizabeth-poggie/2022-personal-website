@@ -1,5 +1,5 @@
 ---
-title: 'Staying Aligned with Authority'
+title: 'Authority Alignment'
 excerpt: 'Leadership is bidirectional'
 source: 'Will Larson'
 ---
