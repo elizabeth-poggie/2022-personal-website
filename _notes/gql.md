@@ -137,3 +137,68 @@ Resolving the N+1 problem associated with GraphQL
     - Back-end service will focus on improving performance
 5. Field nullability
     - Fields are nullable in GQL
+
+# Client Integration
+## GraphQL Code Generator (Codegen)
+1. Used to generate useablequeries and types from the GraphQL schema
+2. `typescript-document-nodes` generates DocumentNode query objects that can be passed directly to the FederationGateway
+
+### Structure
+1. Service.ts makes the call to fetch the required data using Query
+2. Query.graphql files generate constalation-queries.generated.ts using npm. Fragments allow for type checking and we cannot generate an invalid Query :^)
+
+### Advatages
+1. Removes the need for "inline GQL" pattern. the schemas now live in their own files in the service.
+2. Enforces strict type checking on GraphQL queries and prevents any deployments of invalid queries
+3. Automates discoverability of new data. After types are generated, all available data can be autocompleted with TS
+4. Because of generated tyes, building or delivering from complex types in your service is simple (more modular, reusable code). The types create a dependency on the schema. 
+5. Enables efficient Feature Flagging of new queries. 1) Generate a new query => 2) Import it into the service => 3) We FF the fetch
+
+### Disadvatanges
+1. This creates depedencies on the schema. Whenever you want to release new code to ui-web the queries are verified are verified against the schema in production.
+2. Codegen does not play nice with query aliases. This has proven problematic to retrofit the GQL response to the existing client contract.
+
+## 2 Step Integration
+1. Start with the sevrer. When we are fetching the data from the graph, we built a modeling layer to take everything from the graph to remodel it to fit the existing contract for the client. (client has not been touched)
+2. Integrating on the client side
+
+### Risks
+1. Lower risk, the scope of work decreases as well as the minimization of pitfalls. 
+2. Heavier integration because there is extra work to be done. If something goes wrong it decreases the steps.
+
+
+
+
+
+
+
+
+
+# Questions
+## Learnings ?
+
+## Risks ?
+
+## Concerns ?
+1. What do you mean that codegen creates dependency on the schema?
+
+## Problems ?
+Codegen does not play nice with query aliases. This has proven problematic to retrofit the GQL response to the existing client contract
+1. What do you mean by play nice?
+2. What do you mean retrofit the response?
+3. What were you trying to achieve when you encountered this problem?
+
+## Successes ?
+
+## Approach ?
+1. How are the tickets split up?
+2. When you go to start a task how do u approach it? 
+3. What is the flow? 
+4. How is testing done?
+5. What is your role, how does this role differ from Jude's role?
+6. What do you expect from Jude?
+7. How do you communicate to Jude when you need something?
+8. How is the cooridnation between ur team and Jude's team?
+
+
+
