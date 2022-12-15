@@ -5,7 +5,7 @@ import Text from '../../../components/atoms/Text/text'
 
 type Props = {
   title: string
-  coverImage:string
+  coverImage?:string
   content: string
 }
 
@@ -17,9 +17,11 @@ const PostHeader = ({ title, coverImage, content }: Props) => {
             {title}
         </Text>
       </div>
-      <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} src={coverImage} width={1300} height={630}/>
-      </div>
+      {coverImage &&
+        <div className="mb-8 md:mb-16 sm:mx-0">
+          <CoverImage title={title} src={coverImage} width={1300} height={630}/>
+        </div>
+      }
       <div className={styles.post_container}>
         <div
           className={markdownStyles['markdown']}

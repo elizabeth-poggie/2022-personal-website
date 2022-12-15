@@ -1,12 +1,15 @@
 import Link from 'next/link'
+import Text from './Text/text'
 
 const Header = () => {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
-      <Link href="/" className="hover:underline">
-        I am Poggie.
-      </Link>
-    </h2>
+    <div className="mb-20 mt-8">
+        <Link href="/" className="hover:underline">
+          <Text variant="h3">
+            I am Poggie.
+          </Text>
+        </Link>
+    </div>
   )
 }
 

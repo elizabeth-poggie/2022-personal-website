@@ -1,6 +1,6 @@
 import styles from "./text.module.scss";
 
-const textClasses = {
+const textVariantsStyles = {
   h1: styles.h1,
   h2: styles.h2,
   h3: styles.h3,
@@ -13,19 +13,33 @@ const textClasses = {
   body2: styles.p,
 };
 
+const textVariants = {
+  h1: "h1",
+  h2: "h2",
+  h3: "h3",
+  h4: "h4",
+  h5: "h5",
+  h6: "h6",
+  subheading1: "p",
+  subheading2: "p",
+  body1: "p",
+  body2: "p",
+};
+
 type Props = {
     variant?: string
     children: string
   }
 
 const Text = ({variant, children}: Props) => {
-  const textClass = variant ? textClasses[variant] : "p";
+  let Component = variant ? textVariants[variant] : "p";
+  const textVariant = variant ? textVariantsStyles[variant] : styles.p;
   return (
-    <section
-      className={`${textClass}`}
+    <Component
+      className={`${textVariant}`}
     >
       {children}
-    </section>
+    </Component>
   );
 };
 

@@ -24,7 +24,7 @@ export default function Index({ allPosts, allNotes, allPresentations }: Props) {
           <title>I am Poggie.</title>
         </Head>
         <Container>
-        <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
+        <section className="mt-16 mb-16 md:mb-12">
           <Text variant="h1">
             I am Poggie.
           </Text>
