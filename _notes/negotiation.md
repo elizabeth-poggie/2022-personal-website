@@ -6,17 +6,8 @@ source: 'Chris Voss'
 
 # Poggie's Passion for Arguing
 
-Used only for hills to die on, otherwise disagree & commit. You cannot win every conversation. What matters is winning the ones that count :^)
-
-# Key Lessons
-
-## The Target Audience
-
-## Creating the Dynamic of Agreement
-
-## Pacing
-
 ## Labeling
+Diffuse emotions by labeling them.
 
 ## Tone
 Use your own name to make yourself a real person. Humor and humanity are the best ways to break the ice and remove roadblocks.
@@ -39,7 +30,7 @@ Removing unspoken barieries:
 - Are you saying I failed you?
 
 ## Giving Control
-Calibrated questions to bypass the ego. Some examples:
+Pro Tip: Using "How" questions is a gentler version of "No"
 - What do you mean?
 - How am I supposed to to that?
 - How am I supposed to accept that?
@@ -50,9 +41,6 @@ Calibrated questions to bypass the ego. Some examples:
 - What is it that brought us into this situation?
 - How can we solve this problem?
 - What's the objective?
-
-## Guarantee Execution
-Using "How" questions is a gentler version of "No"
 
 ## Leverage
 - **Positive:** The ability to give someone what they want. When someone responds with "I want..." you have positive leverage
