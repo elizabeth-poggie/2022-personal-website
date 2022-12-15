@@ -8,6 +8,7 @@ import Head from 'next/head'
 import Post from '../interfaces/post'
 import Note from '../interfaces/note'
 import Presentation from '../interfaces/presentation'
+import Text from '../components/atoms/Text/text'
 
 type Props = {
   allPosts: Post[]
@@ -24,25 +25,31 @@ export default function Index({ allPosts, allNotes, allPresentations }: Props) {
         </Head>
         <Container>
         <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-          <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
+          <Text variant="h1">
             I am Poggie.
-          </h1>
+          </Text>
         </section>
-        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Portfolio
-        </h2>
+        <div className="mb-8">
+          <Text variant="h2">
+            Portfolio
+          </Text>
+        </div>
         <section className="mb-8">
           <DisplayPosts posts={allPosts} />
         </section>
-        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Presentations
-        </h2>
+        <div className="mb-8">
+          <Text variant="h2">
+            Presentations
+          </Text>
+        </div>
         <section className="mb-8">
           <DisplayPresentation presentations={allPresentations} />
         </section>
-        <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Notes
-        </h2>
+        <div className="mb-8">
+          <Text variant="h2">
+            Notes
+          </Text>
+        </div>
         <section className="mb-8">
           <DisplayNotes notes={allNotes} />
         </section>
