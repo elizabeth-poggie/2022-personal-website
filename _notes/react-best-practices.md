@@ -30,3 +30,6 @@ const Button = (props) => { ... }
 is worse than,
 
 const Button = ({text}) => { ... }
+
+## References
+https://www.makeuseof.com/must-follow-react-practices/ finally posted
