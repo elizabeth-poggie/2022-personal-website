@@ -17,3 +17,9 @@ https://www.adaptivecapacitylabs.com/BriefLookAtTheNewLook.pdf
 https://review.firstround.com/stop-overcomplicating-it-the-simple-guidebook-to-upping-your-management-game
 
 https://www-2.rotman.utoronto.ca/insightshub/leadership-career-development/how-brilliant-careers-are-made
+
+https://www.apollographql.com/tutorials/
+
+https://www.jeremiahlee.com/posts/failed-squad-goals/
+
+https://www.youtube.com/watch?v=_U0VqmkpKqg
